@@ -17,6 +17,7 @@ export const receiveErrors = (errors) => ({
 });
 
 export const googleLogin = () => dispatch => {
+  
   return SessionAPIUtil.googleLogin()
   .then(user => {
     dispatch(receiveCurrentUser(user));

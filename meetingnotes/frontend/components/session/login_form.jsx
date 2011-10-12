@@ -2,9 +2,8 @@ import React from 'react';
 import {withRouter} from 'react-router-dom';
 class LoginForm extends React.Component {
   render(){
-
     return(
-      <button onClick={this.props.login()}>Sign in with Google</button>
+      <a href="/auth/google_oauth2" onClick={()=>this.props.login()}>Sign in with Google</a>
     );
   }
 }
