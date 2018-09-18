@@ -1,4 +1,4 @@
-## Connect
+## Meeting ///notes
 
 [Design Documentation](https://github.com/Meenakshi-Anand/Facebook-Clone/wiki)
 
