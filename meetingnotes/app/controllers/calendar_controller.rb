@@ -14,9 +14,9 @@ class CalendarController < ApplicationController
       client_secret: Rails.application.secrets.google_client_secret,
       authorization_uri: 'https://accounts.google.com/o/oauth2/auth',
       token_credential_uri: 'https://accounts.google.com/o/oauth2/token',
-      scope: Google::Apis::CalendarV3::AUTH_CALENDAR,
+      scope: Google::Apis::CalendarV3::AUTH_CALENDAR_READONLY,
       redirect_uri: callback_url
     }
   end
-  
+
 end
