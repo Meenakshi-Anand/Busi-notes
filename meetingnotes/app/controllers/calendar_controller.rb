@@ -23,7 +23,7 @@ class CalendarController < ApplicationController
 
     service = Google::Apis::CalendarV3::CalendarService.new
     service.authorization = client
-
+    @client = client
     @calendar_list = service.list_calendar_lists
     rescue Google::Apis::AuthorizationError
     response = client.refresh!
@@ -36,7 +36,7 @@ class CalendarController < ApplicationController
   def events
     client = Signet::OAuth2::Client.new(client_options)
     client.update!(session[:authorization])
-
+    @client = client 
     service = Google::Apis::CalendarV3::CalendarService.new
     service.authorization = client
 

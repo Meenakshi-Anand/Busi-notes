@@ -2,14 +2,14 @@
 
 one:
   provider: MyString
-  uid: MyString
+  user_id: MyString
   name: MyString
   oauth_token: MyString
-  oauth_expires_at: 2018-09-24 13:04:14
+  oauth_expires_at: 2018-10-02 18:09:08
 
 two:
   provider: MyString
-  uid: MyString
+  user_id: MyString
   name: MyString
   oauth_token: MyString
-  oauth_expires_at: 2018-09-24 13:04:14
+  oauth_expires_at: 2018-10-02 18:09:08
