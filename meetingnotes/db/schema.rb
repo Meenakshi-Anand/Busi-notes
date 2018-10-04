@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_03_052353) do
+ActiveRecord::Schema.define(version: 2018_10_04_174621) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2018_10_03_052353) do
     t.datetime "updated_at", null: false
     t.string "uid"
     t.string "refresh_token"
+    t.string "code"
   end
 
 end

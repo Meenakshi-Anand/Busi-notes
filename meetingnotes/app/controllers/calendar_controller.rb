@@ -1,3 +1,4 @@
+
 class CalendarController < ApplicationController
 
   def redirect
