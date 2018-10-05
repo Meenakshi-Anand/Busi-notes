@@ -2,11 +2,11 @@ class Api::SessionsController < ApplicationController
   def create
     user = User.from_omniauth(request.env["omniauth.auth"])
     session[:user_id] = user.id
-    redirect_to calendars_url
+    render "api/calendars/calendar"
   end
 
   def destroy
     session[:user_id] = nil
-    redirect_to root_path
+    render {}
   end
 end
