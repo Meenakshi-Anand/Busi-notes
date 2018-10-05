@@ -1,4 +1,4 @@
-export const google_login = (user) => (
+export const googleLogin = (user) => (
  $.ajax({
    method: 'GET',
    url: 'api/auth/:provider/callback',
