@@ -1,5 +1,5 @@
 
-class CalendarController < ApplicationController
+class Api::CalendarController < ApplicationController
 
   def redirect
     client = Signet::OAuth2::Client.new(client_options)
