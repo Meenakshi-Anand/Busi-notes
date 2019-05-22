@@ -1,6 +1,6 @@
-## Meeting Notes
+## Mail Notes
 
-[Design Documentation](https://github.com/Meenakshi-Anand/Facebook-Clone/wiki)
+[Design Documentation](https://github.com/Meenakshi-Anand/Mail-notes/wiki)
 
 
 Meeting Notes is a full-stack web application built upon a Rails framework, using PostgreSQL database and React for the rendering of frontend components, with Redux being used for state management.
